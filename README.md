@@ -75,33 +75,33 @@ Debt Manager is an application for managing debts, including authentication, lis
 
 ```plaintext
 debt_manager_backend_fastapi/
-  ├── app/
-  │   ├── config/
-  │   ├── controllers/
-  │   ├── middlewares/
-  │   ├── migrations/
-  │   ├── models/
-  │   ├── repositories/
-  │   ├── routers/
-  │   ├── services/
-  │   └── tests/
-  ├── Dockerfile
-  ├── docker-compose.yml
-  └── requirements.txt
+  ├── app/                         # Main application folder
+  │   ├── config/                  # Configuration files (database, environment variables, etc.)
+  │   ├── controllers/             # API endpoints and orchestration of services
+  │   ├── middlewares/             # Custom middlewares for request processing (e.g., authentication)
+  │   ├── migrations/              # Database migration files for schema updates
+  │   ├── models/                  # Database models representing tables and relationships
+  │   ├── repositories/            # Data access layer for database operations
+  │   ├── routers/                 # Routing configuration to organize API endpoints
+  │   ├── services/                # Business logic and operations used by controllers
+  │   └── tests/                   # Unit and integration test cases
+  ├── Dockerfile                   # Instructions to build the backend Docker container
+  ├── docker-compose.yml           # Docker Compose file to run the app and its dependencies
+  └── requirements.txt             # Python dependencies required for the backend application
 
 debt_manager_frontend/
-  ├── src/
-  │   ├── app/
-  │   ├── components/
-  │   ├── contexts/
-  │   ├── pages/
-  │   ├── services/
-  │   ├── styles/
-  │   ├── utils/
-  │   └── tests/
-  ├── package.json
-  ├── tsconfig.json
-  └── tailwind.config.ts
+  ├── src/                         # Main source code folder
+  │   ├── app/                     # Root layout and shared configurations for the application
+  │   ├── components/              # Reusable UI components (e.g., buttons, navigation)
+  │   ├── contexts/                # Global state management with React Context API
+  │   ├── pages/                   # Application pages based on Next.js' file-based routing
+  │   ├── services/                # Logic for interacting with the backend API
+  │   ├── styles/                  # Global and component-specific styling using TailwindCSS
+  │   ├── utils/                   # Helper functions for formatting and validations
+  │   └── tests/                   # Unit and integration tests for the frontend
+  ├── package.json                 # Defines dependencies, scripts, and metadata for the frontend
+  ├── tsconfig.json                # TypeScript configuration for the frontend project
+  └── tailwind.config.ts           # TailwindCSS configuration file
 ```
 
 ---

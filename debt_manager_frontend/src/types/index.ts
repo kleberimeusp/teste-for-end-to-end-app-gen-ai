@@ -1,0 +1,1 @@
+export type Debt = { id: string; title: string; amount: number; };

@@ -1,0 +1,1 @@
+export const DebtCard = () => <div>Debt Card</div>;

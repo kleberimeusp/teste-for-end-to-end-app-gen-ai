@@ -1,0 +1,1 @@
+export default function CreateDebt() { return <div>Create Debt</div>; }

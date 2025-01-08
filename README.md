@@ -13,10 +13,11 @@ Debt Manager is an application for managing debts, including authentication, lis
 ![Git](https://img.shields.io/badge/Git-2.40.0-%237159c1?style=for-the-badge&logo=git)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.95.1-%237159c1?style=for-the-badge&logo=fastapi)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15.3-%237159c1?style=for-the-badge&logo=postgresql)
+![MongoDB](https://img.shields.io/badge/MongoDB-1.14.1-%237159c1?style=for-the-badge&logo=mongodb)
 ![Docker](https://img.shields.io/badge/Docker-4.1.8-%237159c1?style=for-the-badge&logo=docker)
 ![Swagger](https://img.shields.io/badge/Swagger-2.10.5-%237159c1?style=for-the-badge&logo=swagger)
 ![Python](https://img.shields.io/badge/Python-3.10-%237159c1?style=for-the-badge&logo=python)
-![Pytest](https://img.shields.io/badge/Pytest-7.2.2-%237159c1?style=for-the-badge&logo=pytest)
+![VSCode](https://img.shields.io/badge/VSCode-1.77.3-%237159c1?style=for-the-badge&logo=visualstudiocode)
 
 ---
 
@@ -28,6 +29,7 @@ Debt Manager is an application for managing debts, including authentication, lis
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.9-%237159c1?style=for-the-badge&logo=typescript)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.2-%237159c1?style=for-the-badge&logo=tailwindcss)
 ![Postman](https://img.shields.io/badge/Postman-10.13.10-%237159c1?style=for-the-badge&logo=postman)
+![Insomnia](https://img.shields.io/badge/Insomnia-2023.1.0-%237159c1?style=for-the-badge&logo=insomnia)
 ![VSCode](https://img.shields.io/badge/VSCode-1.77.3-%237159c1?style=for-the-badge&logo=visualstudiocode)
 
 ---

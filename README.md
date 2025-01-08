@@ -8,44 +8,27 @@ Debt Manager is an application for managing debts, including authentication, lis
 
 ---
 
-## Project Structure
+## Main Technologies Used - API (Backend Microservices)
 
-### Backend (FastAPI)
-The backend follows a modular architecture with the following layers:
-- **Configurations (`config/`)**: Configuration for the database and environment variables.
-- **Models (`models/`)**: Represent the database tables.
-- **Repositories (`repositories/`)**: Data access layer.
-- **Services (`services/`)**: Business logic implementation.
-- **Controllers (`controllers/`)**: Manages endpoints.
-- **Routers (`routers/`)**: Organizes the API routes.
-- **Middlewares (`middlewares/`)**: Handles request interception, such as JWT authentication.
-- **Tests (`tests/`)**: Includes unit and integration tests.
-
-### Frontend (Next.js)
-The frontend is developed using **Next.js** and follows these layers:
-- **Pages (`pages/`)**: Manages frontend routes.
-- **Components (`components/`)**: Contains reusable components.
-- **Contexts (`contexts/`)**: Manages global state.
-- **Services (`services/`)**: Handles API communication.
-- **Styles (`styles/`)**: TailwindCSS configuration.
-- **Utils (`utils/`)**: Includes utility functions.
+![Git](https://img.shields.io/badge/Git-2.40.0-%237159c1?style=for-the-badge&logo=git)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.95.1-%237159c1?style=for-the-badge&logo=fastapi)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15.3-%237159c1?style=for-the-badge&logo=postgresql)
+![Docker](https://img.shields.io/badge/Docker-4.1.8-%237159c1?style=for-the-badge&logo=docker)
+![Swagger](https://img.shields.io/badge/Swagger-2.10.5-%237159c1?style=for-the-badge&logo=swagger)
+![Python](https://img.shields.io/badge/Python-3.10-%237159c1?style=for-the-badge&logo=python)
+![Pytest](https://img.shields.io/badge/Pytest-7.2.2-%237159c1?style=for-the-badge&logo=pytest)
 
 ---
 
-## Technologies Used
+## Main Technologies Used - Frontend
 
-### Backend
-- **Language**: Python
-- **Framework**: FastAPI
-- **Database**: PostgreSQL
-- **Authentication**: JWT
-- **Docker**: Backend and database deployment
-
-### Frontend
-- **Language**: TypeScript
-- **Framework**: Next.js
-- **Styling**: TailwindCSS
-- **State Management**: Context API
+![Git](https://img.shields.io/badge/Git-2.40.0-%237159c1?style=for-the-badge&logo=git)
+![React](https://img.shields.io/badge/React-18.2.0-%237159c1?style=for-the-badge&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-13.4-%237159c1?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.9-%237159c1?style=for-the-badge&logo=typescript)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.2-%237159c1?style=for-the-badge&logo=tailwindcss)
+![Postman](https://img.shields.io/badge/Postman-10.13.10-%237159c1?style=for-the-badge&logo=postman)
+![VSCode](https://img.shields.io/badge/VSCode-1.77.3-%237159c1?style=for-the-badge&logo=visualstudiocode)
 
 ---
 

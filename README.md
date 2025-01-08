@@ -1,92 +1,92 @@
 
 # Debt Manager - Backend (FastAPI) & Frontend (Next.js)
 
-## Descrição
-Debt Manager é uma aplicação para gerenciar dívidas, incluindo funcionalidades de autenticação, listagem e criação de dívidas. O projeto é dividido em dois serviços principais:
-- Backend em **Python (FastAPI)**.
-- Frontend em **Next.js** com **TypeScript**.
+## Description
+Debt Manager is an application for managing debts, including authentication, listing, and creation of debts. The project is divided into two main services:
+- Backend in **Python (FastAPI)**.
+- Frontend in **Next.js** with **TypeScript**.
 
 ---
 
-## Estrutura do Projeto
+## Project Structure
 
 ### Backend (FastAPI)
-O backend segue uma arquitetura modular com as seguintes camadas:
-- **Configurações (`config/`)**: Configuração de banco de dados e variáveis de ambiente.
-- **Modelos (`models/`)**: Representam as tabelas do banco de dados.
-- **Repositórios (`repositories/`)**: Camada de acesso a dados.
-- **Serviços (`services/`)**: Implementa a lógica de negócio.
-- **Controladores (`controllers/`)**: Gerencia endpoints.
-- **Rotas (`routers/`)**: Organiza as rotas da API.
-- **Middlewares (`middlewares/`)**: Intercepta requisições para autenticação JWT.
-- **Testes (`tests/`)**: Inclui testes unitários e de integração.
+The backend follows a modular architecture with the following layers:
+- **Configurations (`config/`)**: Configuration for the database and environment variables.
+- **Models (`models/`)**: Represent the database tables.
+- **Repositories (`repositories/`)**: Data access layer.
+- **Services (`services/`)**: Business logic implementation.
+- **Controllers (`controllers/`)**: Manages endpoints.
+- **Routers (`routers/`)**: Organizes the API routes.
+- **Middlewares (`middlewares/`)**: Handles request interception, such as JWT authentication.
+- **Tests (`tests/`)**: Includes unit and integration tests.
 
 ### Frontend (Next.js)
-O frontend foi desenvolvido com **Next.js** e segue as seguintes camadas:
-- **Páginas (`pages/`)**: Gerencia as rotas do frontend.
-- **Componentes (`components/`)**: Contém componentes reutilizáveis.
-- **Contextos (`contexts/`)**: Gerencia o estado global.
-- **Serviços (`services/`)**: Gerencia chamadas à API.
-- **Estilização (`styles/`)**: Configuração de TailwindCSS.
-- **Utils (`utils/`)**: Inclui funções utilitárias.
+The frontend is developed using **Next.js** and follows these layers:
+- **Pages (`pages/`)**: Manages frontend routes.
+- **Components (`components/`)**: Contains reusable components.
+- **Contexts (`contexts/`)**: Manages global state.
+- **Services (`services/`)**: Handles API communication.
+- **Styles (`styles/`)**: TailwindCSS configuration.
+- **Utils (`utils/`)**: Includes utility functions.
 
 ---
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 ### Backend
-- **Linguagem**: Python
+- **Language**: Python
 - **Framework**: FastAPI
-- **Banco de Dados**: PostgreSQL
-- **Autenticação**: JWT
-- **Docker**: Deploy do backend e banco de dados
+- **Database**: PostgreSQL
+- **Authentication**: JWT
+- **Docker**: Backend and database deployment
 
 ### Frontend
-- **Linguagem**: TypeScript
+- **Language**: TypeScript
 - **Framework**: Next.js
-- **Estilização**: TailwindCSS
-- **Gerenciamento de Estado**: Context API
+- **Styling**: TailwindCSS
+- **State Management**: Context API
 
 ---
 
-## Como Rodar o Projeto
+## How to Run the Project
 
-### Pré-requisitos
-- Docker e Docker Compose
+### Prerequisites
+- Docker and Docker Compose
 - Node.js (>= 16.x)
 
-### Rodando o Backend
-1. Navegue até o diretório do backend:
+### Running the Backend
+1. Navigate to the backend directory:
    ```bash
    cd debt_manager_backend_fastapi
    ```
-2. Configure o arquivo `.env` com as variáveis necessárias.
-3. Suba o backend e o banco de dados com Docker:
+2. Configure the `.env` file with the required variables.
+3. Start the backend and the PostgreSQL database with Docker:
    ```bash
    docker-compose up --build
    ```
 
-### Rodando o Frontend
-1. Navegue até o diretório do frontend:
+### Running the Frontend
+1. Navigate to the frontend directory:
    ```bash
    cd debt_manager_frontend
    ```
-2. Instale as dependências:
+2. Install dependencies:
    ```bash
    npm install
    ```
-3. Execute o servidor de desenvolvimento:
+3. Run the development server:
    ```bash
    npm run dev
    ```
 
-### Acessando a Aplicação
+### Accessing the Application
 - **Backend**: `http://localhost:8000/docs` (Swagger UI)
 - **Frontend**: `http://localhost:3000`
 
 ---
 
-## Estrutura de Pastas
+## Folder Structure
 
 ```plaintext
 debt_manager_backend_fastapi/
@@ -121,5 +121,5 @@ debt_manager_frontend/
 
 ---
 
-## Contato
-Se tiver dúvidas ou sugestões, entre em contato pelo e-mail [kleber.ime.usp@gmail.com](mailto:kleber.ime.usp@gmail.com).
+## Contact
+For questions or suggestions, please contact via email: [kleber.ime.usp@gmail.com](mailto:kleber.ime.usp@gmail.com).

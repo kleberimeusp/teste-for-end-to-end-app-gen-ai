@@ -12,33 +12,37 @@
 ## Python Layer Model (Universal Reference Architecture)
 
 ```plaintext
-.github/                # GitHub Actions configuration or other workflow settings
-.vscode/                # Visual Studio Code-specific configuration
+.github/                	# GitHub Actions configuration or other workflow settings
+.vscode/                	# Visual Studio Code-specific configuration
 app/                    
-    main.py             # Main application (entry point)
-    configs/            # Configuration files
-    models/             # Database and domain models
-    controllers/        # API endpoints
-    middlewares/        # HTTP Middlewares
-    services/           # Business logic services
-    repositories/       # Data persistence and access logic
-    tests/              # Unit and integration tests
-docs/                   # Project documentation
-scripts/                # Automation scripts
-.env                    # Environment variables file
-docker-compose.yml      # Docker Compose file for multi-container configuration
-Dockerfile              # Dockerfile for image building
-requirements.txt        # Python dependencies
-README.md               # Project description
+    __pycache__/        	# Compiled Python files
+    config/             	# Configuration files (database, application settings, etc.)
+    controllers/        	# API endpoints
+    interfaces/         	# Interfaces for abstractions (optional, for dependency injection)
+    middlewares/        	# HTTP Middlewares
+    migrations/         	# Database migrations
+    models/             	# Database and domain models
+    repositories/       	# Data persistence and access logic
+    routers/            	# Route configuration for the API
+    servers/            	# Server-specific logic (e.g., startup tasks, shutdown handlers)
+    services/           	# Business logic services
+    tests/              	# Unit and integration tests
+    __init__.py         	# Package initialization
+main.py                 	# Main application (entry point)
+setup.py                	# Setup configuration for the package
+.env                    	# Environment variables file
+docs/                   	# Project documentation
+scripts/                	# Automation scripts
+docker-compose.yml      	# Docker Compose file for multi-container configuration
+Dockerfile              	# Dockerfile for image building
+README_PostgreSQL_Docker.md # Additional README for PostgreSQL Docker setup
+README-py.md            	# Project description
+requirements.txt        	# Python dependencies
 ```
 
 ## Main Technologies Used - API (Backend Microservices)
 
-![Python](https://img.shields.io/badge/Python-3.10-%237159c1?style=for-the-badge&logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.95.2-%237159c1?style=for-the-badge&logo=fastapi)
-![Docker](https://img.shields.io/badge/Docker-4.1.8-%237159c1?style=for-the-badge&logo=docker)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15.3-%237159c1?style=for-the-badge&logo=postgresql)
-![MongoDB](https://img.shields.io/badge/MongoDB-1.14.1-%237159c1?style=for-the-badge&logo=mongodb)
+&#x20;  &#x20;
 
 ---
 
@@ -79,6 +83,54 @@ docker-compose up --build
 
 ```bash
 uvicorn app.main:app --reload
+```
+
+### Install Python dependencies manually (optional)
+
+To install the Python dependencies individually:
+
+```bash
+pip install Flask_Migrate
+pip install Mako
+pip install MarkupSafe
+pip install PyJWT
+pip install SQLAlchemy
+pip install alembic
+pip install annotated_types
+pip install anyio
+pip install asyncpg
+pip install blinker
+pip install click
+pip install colorama
+pip install debugpy
+pip install dns
+pip install dotenv
+pip install email_validator
+pip install fastapi
+pip install flask
+pip install flask_sqlalchemy
+pip install h11
+pip install idna
+pip install iniconfig
+pip install itsdangerous
+pip install jinja2
+pip install mako
+pip install markupsafe
+pip install multipart
+pip install packaging
+pip install pip
+pip install pkg_resources
+pip install pluggy
+pip install psycopg2
+pip install pydantic
+pip install pytest
+pip install pytest_asyncio
+pip install python_multipart
+pip install setuptools
+pip install sniffio
+pip install starlette
+pip install uvicorn
+pip install werkzeug
 ```
 
 ### Swagger URL
@@ -152,6 +204,15 @@ Debugging can be done via VSCode:
 
 - Localhost: [Swagger local machine](http://127.0.0.1:8000/docs)
   ![img](docs/__img/img.png)
+
+
+
+---
+
+
+## Access Mode: NoSQL, SQL and REST API
+
+- Localhost: [Swagger local machine](http://127.0.0.1:8000/docs)&#x20;
 
 ---
 
